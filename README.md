@@ -1,10 +1,10 @@
-# Application-of-federated-learning-to-a-credit-risk-model-
+# Application-of-federated-learning-to-a-credit-risk-model
 
 
 In this project, we successfully explored an application of federated learning to a credit risk model for loan approval, and compare its accuracy to that of a traditional, centralized modelling approach
 The challenge was to obtain a model through decentralized computation that is comparable to a benchmark model obtained through centralized means. We used FedAvg, and the Flower framework for federated learning to learn the shared weights in a logistic regression model. In the end, the centralized model was 69.32% accurate, while the FL model was 69.23% accurate.
 
-## Dataset: 
+## Dataset
 The considered dataset takes into account an applicant’s financial profile, made up of features such as loan amount, age, income (net and gross), value of savings, transactional records, assets, liabilities and more, to determine their likelihood of default. In total, we are given 27 descriptive features and one target variable, which was an indicator dummy telling us whether a default had occurred. The dataset was simulated by a professional with over 20 years of experience in financial modelling, and is meant to closely approximate what is observed in the real world.
 
 ### Data File Structure

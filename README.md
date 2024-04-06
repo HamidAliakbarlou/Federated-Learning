@@ -1,4 +1,4 @@
-# Application-of-federated-learning-to-a-credit-risk-model
+# Application of federated learning to a credit risk model
 
 
 In this project, we successfully explored an application of federated learning to a credit risk model for loan approval, and compare its accuracy to that of a traditional, centralized modelling approach
